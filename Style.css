@@ -1,0 +1,84 @@
+/* 
+    Document   : Style
+    Created on : 31-mrt-2012, 13:22:53
+    Author     : corstianboerman
+    Description:
+        The stylesheet for "A Tux A Day".
+*/
+
+body {
+    background-color: cornsilk;
+    font-family: fantasy;
+}
+
+b {
+    font-weight: bold;
+}
+
+p {
+    padding-left: 12px;
+}
+
+h1 {
+    font-size: xx-large;
+    padding: 12px;
+}
+
+h2 {
+    font-size: x-large;
+    padding: 12px;
+}
+
+h3 {
+    font-size: large;
+    padding: 12px;
+}
+
+h4 {
+    font-size: medium;
+}
+
+h5 {
+    font-size: small;
+}
+
+#head {
+    width: 100%;
+    padding-bottom: 24px;
+    background-color: dodgerblue;
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: right;
+    width: 50%;
+}
+
+#todaystux {
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    background-color: dodgerblue;
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+#article {
+    border-radius: 12px;
+    width: auto;
+    height: auto;
+    background-color: dodgerblue;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 48px;
+}
+
+#image {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
